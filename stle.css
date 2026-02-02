@@ -1,0 +1,22 @@
+.poster-row {
+    display: flex;
+    gap: 18px;
+}
+
+.poster-card {
+    width: 160px;
+    text-align: center;
+}
+
+.poster-card img {
+    width: 160px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.poster-title {
+    font-size: 14px;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
